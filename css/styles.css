@@ -1,0 +1,39 @@
+* { box-sizing: border-box }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+header {
+    color: red;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+#gameBoard {
+    width: 604px;
+    height: 604px;
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
